@@ -15,7 +15,8 @@ describe('main()', () => {
         expect(main.caclSum(numArray2)).toBe(24);
     });
 
-    it('should calculate the sum of numbers which are in array and less than indicated num ', () => {
+    it('should calculate the sum of numbers which are in' 
+        + 'array and less than indicated num ', () => { 
         let numArray1 = [3, 6, 1, 8, 6, 4, 2];
         let numArray2 = [1, 2, 6, 2, 9, 0, 4];
         
